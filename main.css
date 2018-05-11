@@ -1,4 +1,23 @@
 
+@font-face {
+    font-family: MyRobotoRegular;
+    src: url("http://fonts.googleapis.com/css?family=Roboto");
+}
+
+@font-face {
+    font-family: MyRobotoBoldItalic;
+    src: url("http://fonts.googleapis.com/css?family=Roboto");
+}
+
+@font-face {
+    font-family: MyRobotoBold;
+    src: url("http://fonts.googleapis.com/css?family=Roboto");
+}
+
+@font-face {
+    font-family: MyRobotoItalic;
+    src: url("http://fonts.googleapis.com/css?family=Roboto");
+}
 
 html {
     height: 100%;
@@ -16,13 +35,13 @@ body {
 
 
 .head {
-    background: url("head1.PNG") center center no-repeat;
+    background: url("./images/head1.PNG") center center no-repeat;
     background-size: cover;
     height: 7vw;
 }
 
 .left {
-    background: url("body1.PNG") center center no-repeat;
+    background: url("./images/body1.PNG") center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -73,6 +92,7 @@ p {
 }
 
 .search {
+    font-family: 'MyRobotoRegular', sans-serif;
     text-transform: uppercase;
     border: 2px solid #f18a00;
     color: #ffffff;
@@ -88,6 +108,7 @@ p {
 }
 
 .cancel {
+    font-family: 'MyRobotoRegular', sans-serif;
     width: 158px;
     text-transform: uppercase;
     border: 2px solid #f18a00;
@@ -119,6 +140,10 @@ md-select {
 img {
     width: 250px;
     height: 250px;
+}
+
+h1 {
+    font-family: 'MyRobotoRegular', sans-serif;
 }
 
 /*Table*/
@@ -224,12 +249,12 @@ td:nth-child(2){
 }
 
 .copy {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'MyRobotoRegular', sans-serif;
     color: white;
 }
 
 .orangery {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'MyRobotoRegular', sans-serif;
     color: white;
     font-size: 20px;
 }
@@ -246,12 +271,12 @@ td:nth-child(2){
 }
 
 
-.icon a{
+.icon {
     transition: .1s ease-in-out;
 }
 
-.icon a:hover {
-    opacity: .5;
+.icon:hover {
+    opacity: .6;
 }
 
 /*Cards*/
