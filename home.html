@@ -20,13 +20,13 @@
     <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="content">
-    <div ng-app="myApp" ng-controller="investmentsCtrl" class="md-padding" ng-cloak>
-        <div class="head">
-        </div>
-        <div class="left">
-        </div>
+<div class="wrapper">
+    <div class="content">
+        <div ng-app="myApp" ng-controller="investmentsCtrl" class="md-padding" ng-cloak>
+            <div class="head">
+            </div>
+            <div class="left">
+            </div>
             <div class="right">
                 <div class="inputs">
                     <h1>Search by investors</h1>
@@ -66,34 +66,34 @@
                 </div>
             </div>
             <div class="cards_block">
-            <div ng-repeat="investment in resultInvestments">
-                <div class="card">
-                    <img ng-src="{{investment.imgUrl}}" alt="Avatar" >
-                    <div class="container">
-                        <h4><b>{{investment.name}}</b></h4>
-                        <p>{{investment.areas.join(", ")}}</p>
-                        <p>{{investment.money}}</p>
-                        <p>{{investment.country}}</p>
+                <div ng-repeat="investment in resultInvestments">
+                    <div class="card">
+                        <img ng-src="{{investment.imgUrl}}" alt="Avatar" >
+                        <div class="container">
+                            <h4><b>{{investment.name}}</b></h4>
+                            <p>{{investment.areas.join(", ")}}</p>
+                            <p>{{investment.money}}</p>
+                            <p>{{investment.country}}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        <!--<table ng-table="investmentsTable" class="" ng-show="isFind">-->
-            <!--<tr ng-repeat="investment in $data">-->
+                <!--<table ng-table="investmentsTable" class="" ng-show="isFind">-->
+                <!--<tr ng-repeat="investment in $data">-->
                 <!--<td title="'Photo'" sortable="'imgUrl'">-->
-                    <!--<img ng-src="{{investment.imgUrl}}" /></td>-->
+                <!--<img ng-src="{{investment.imgUrl}}" /></td>-->
                 <!--<td title="'Name'" sortable="'name'">-->
-                    <!--{{investment.name}}</td>-->
+                <!--{{investment.name}}</td>-->
                 <!--<td title="'Money'" sortable="'money'">-->
-                    <!--{{investment.money}}</td>-->
+                <!--{{investment.money}}</td>-->
                 <!--<td title="'Country'" sortable="'country'">-->
-                    <!--{{investment.country}}</td>-->
+                <!--{{investment.country}}</td>-->
                 <!--<td title="'Arreas'" sortable="'areas'">-->
-                    <!--{{investment.areas.join(", ")}}</td>-->
-            <!--</tr>-->
-        <!--</table>-->
+                <!--{{investment.areas.join(", ")}}</td>-->
+                <!--</tr>-->
+                <!--</table>-->
+            </div>
         </div>
-    </div>
         <div class="footer">
             <div class="footer_content">
                 <p class="orangery">The Orangery</p>
@@ -107,11 +107,11 @@
 
         </div>
 
-            <div class="footer_under">
-                <p class="copy">© COPYRIGHT 2018 ALL RIGHTS RESERVED</p>
-            </div>
+        <div class="footer_under">
+            <p class="copy">© COPYRIGHT 2018 ALL RIGHTS RESERVED</p>
+        </div>
 
     </div>
-    </div>
+</div>
 </body>
 </html>
